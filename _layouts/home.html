@@ -15,6 +15,7 @@ refactor: true
 {% assign visible_start = paginator.page | minus: 1 | times: paginator.per_page %}
 {% assign visible_end = visible_start | plus: paginator.per_page %}
 
+
 {% if all_pinned.size > visible_start %}
   {% if all_pinned.size > visible_end %}
     {% assign pinned_size = paginator.per_page %}
@@ -31,7 +32,9 @@ refactor: true
 
 <!-- Get normal posts on current page -->
 
-{% assign normal_size = paginator.posts | size | minus: pinned_size %}
+{% assign normal_size = site.posts | size | minus: pinned_size %}
+<p>전체 글 개수 (paginator): {{ paginator.posts | size }}</p>
+<p>전체 글 개수 (site.posts): {{ site.posts | size }}</p>
 
 {% if normal_size > 0 %}
   {% if pinned_size > 0 %}
