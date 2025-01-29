@@ -9,7 +9,7 @@ CLI=("git" "npm")
 
 ACTIONS_WORKFLOW=pages-deploy.yml
 
-#RELEASE_HASH=$(git log --grep="chore(release):" -1 --pretty="%H")
+# RELEASE_HASH=$(git log --grep="chore(release):" -1 --pretty="%H")
 RELEASE_HASH=$(git log --grep="chore(release):" -1 --pretty="%H" || echo "EMPTY")
 
 # temporary file suffixes that make `sed -i` compatible with BSD and Linux
@@ -105,7 +105,7 @@ commit() {
 
 main() {
   check_env
-  reset_latest
+  # reset_latest
   init_files
   commit
 }
