@@ -6,6 +6,8 @@ tags: [computer science, number theory, negative number, two's complement, one's
 description: 0과 1로만 이루어진 컴퓨터가 어떻게 음수를 표현할 수 있게 됐는지에 대해 이야기하고 이와 함께 소개되는 1의 보수, 2의 보수의 개념에 대해서 다룬다.
 ---
 
+> 이 글은 아주 기초적인 프로그래밍 언어 지식과 이진법에 대한 간단한 지식을 선수로 요구합니다.
+
 정적 타입 언어(C, Java, C# 등)를 공부해본 사람들은 모든 원시 자료형(primitive data type)에는 signed와 unsigned가 있다는 것을 알것이다. signed char, 
 unsigned int와 같은 녀석들 말이다. signed는 음수와 양수 모두를 나타내고 unsigned는 0을 포함한 양수를 
 나타낸다.
