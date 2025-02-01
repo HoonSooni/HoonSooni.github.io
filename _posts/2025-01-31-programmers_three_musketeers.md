@@ -3,10 +3,10 @@ title: "Programmers lv.1 - 삼총사"
 date: 2025-01-31 00:10:00 +0800
 categories: [IT, 코딩테스트]
 tags: [coding test, algorithm, programmers] 
-description: 프로그래머스 레벨1 문제 삼총사 문제 풀이.
+description: 프로그래머스 레벨1 삼총사 문제 풀이.
 ---
 
-(https://school.programmers.co.kr/learn/courses/30/lessons/131705){https://school.programmers.co.kr/learn/courses/30/lessons/131705}
+[https://school.programmers.co.kr/learn/courses/30/lessons/131705](https://school.programmers.co.kr/learn/courses/30/lessons/131705)
 
 ## 문제 설명 (난이도 1)
 
