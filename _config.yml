@@ -25,7 +25,7 @@ future: true
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://HoonSooni.github.io"
+url: "https://hoonsooni.com"
 
 github:
   username: HoonSooni # change to your GitHub username
