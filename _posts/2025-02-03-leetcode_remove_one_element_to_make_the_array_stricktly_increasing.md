@@ -1,7 +1,7 @@
 ---
 title: "LeetCode Easy - 1909. Remove One Element to Make the Array Strictly Increasing"
 date: 2025-02-03 00:00:00 +0800
-categories: [IT, 코딩테스트]
+categories: [CodingTest, LeetCode]
 tags: [coding test, algorithm, leetcode] 
 description: 릿코드 Easy Remove One Element to Make the Array Stricktly Increasing 문제 풀이.
 ---

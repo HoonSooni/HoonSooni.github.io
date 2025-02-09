@@ -1,7 +1,7 @@
 ---
 title: "LeetCode Easy - 2760. Longest Even Odd Subarray With Threshold"
 date: 2025-02-09 00:00:00 +0800
-categories: [IT, 코딩테스트]
+categories: [CodingTest, LeetCode]
 tags: [coding test, algorithm, leetcode] 
 description: 릿코드 Easy Longest Even Odd Subarray With Threshold 문제 풀이.
 ---

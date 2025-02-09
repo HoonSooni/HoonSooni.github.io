@@ -1,7 +1,7 @@
 ---
 title: "Programmers lv.1 - [PCCP 기출문제] / 10번 공원"
 date: 2025-02-06 00:00:00 +0800
-categories: [IT, 코딩테스트]
+categories: [CodingTest, Programmers]
 tags: [coding test, algorithm, programmers] 
 description: 프로그래머스 레벨1 [PCCP 기출문제] / 10번 공원 문제 풀이.
 ---

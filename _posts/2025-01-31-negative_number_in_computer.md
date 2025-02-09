@@ -1,7 +1,7 @@
 ---
 title: "컴퓨터가 음수를 나타내는 기가막힌 방법"
 date: 2025-01-31 00:00:00 +0800
-categories: [IT, 컴퓨터과학]
+categories: [ComputerScience]
 tags: [computer science, number theory, negative number, two's complement, one's complement, unsigned, signed] 
 description: 0과 1로만 이루어진 컴퓨터가 어떻게 음수를 표현할 수 있게 됐는지에 대해 이야기하고 이와 함께 소개되는 1의 보수, 2의 보수의 개념에 대해서 다룬다.
 ---

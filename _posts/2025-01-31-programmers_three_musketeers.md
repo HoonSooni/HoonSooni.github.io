@@ -1,7 +1,7 @@
 ---
 title: "Programmers lv.1 - 삼총사"
 date: 2025-01-31 00:10:00 +0800
-categories: [IT, 코딩테스트]
+categories: [CodingTest, Programmers]
 tags: [coding test, algorithm, programmers] 
 description: 프로그래머스 레벨1 삼총사 문제 풀이.
 ---

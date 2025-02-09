@@ -1,7 +1,7 @@
 ---
 title: "LeetCode Easy - 2423. Remove Letter To Equalize Frequency"
 date: 2025-02-01 00:00:00 +0800
-categories: [IT, 코딩테스트]
+categories: [CodingTest, LeetCode]
 tags: [coding test, algorithm, leetcode] 
 description: 릿코드 Easy Remove Letter To Equalize Frequency 문제 풀이.
 ---

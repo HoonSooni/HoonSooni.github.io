@@ -1,7 +1,7 @@
 ---
 title: "LeetCode Easy - 914. X of a Kind in a Deck of Cards"
 date: 2025-02-08 00:00:00 +0800
-categories: [IT, 코딩테스트]
+categories: [CodingTest, LeetCode]
 tags: [coding test, algorithm, leetcode] 
 description: 릿코드 Easy X of a Kind in a Deck of Cards 문제 풀이.
 ---
