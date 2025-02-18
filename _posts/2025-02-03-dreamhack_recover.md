@@ -1,7 +1,7 @@
 ---
 title: "드림핵 lv.1 - Recover"
 date: 2025-02-03 00:10:00 +0800
-categories: [CyberSecurity, Wargame]
+categories: [Wargame, Dreamhack]
 tags: [cyber security, writeup, dreamhack, reverse engineering, reversing] 
 description: 드림핵 Recover 리버싱 워게임 풀이
 ---
