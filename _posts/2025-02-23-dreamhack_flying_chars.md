@@ -6,6 +6,8 @@ tags: [cyber security, writeup, dreamhack, web hacking]
 description: 드림핵 Flying Chars 웹해킹 워게임 풀이
 ---
 
+[https://dreamhack.io/wargame/challenges/850](https://dreamhack.io/wargame/challenges/850)
+
 # 문제 설명
 
 날아다니는 글자들을 멈춰서 전체 문자열을 알아내세요! 플래그 형식은 DH{전체 문자열} 입니다.
