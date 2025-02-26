@@ -3,7 +3,7 @@ title: "드림핵 lv.1 - Base64 Based"
 date: 2025-02-26 00:22:00 +0800
 categories: [Wargame, Dreamhack]
 tags: [cyber security, writeup, dreamhack, web hacking] 
-description: 드림핵 Hack The Elon 웹해킹 워게임 풀이
+description: 드림핵 Base64 Based 웹해킹 워게임 풀이
 ---
 
 [https://dreamhack.io/wargame/challenges/1785](https://dreamhack.io/wargame/challenges/1785)
