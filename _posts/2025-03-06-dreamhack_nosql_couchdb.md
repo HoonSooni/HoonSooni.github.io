@@ -5,6 +5,7 @@ categories: [Wargame, Dreamhack]
 tags: [cyber security, writeup, dreamhack, web hacking, nosql injection, couchdb] 
 description: 드림핵 NoSQL-CouchDB 웹해킹 워게임 풀이
 ---
+[https://dreamhack.io/wargame/challenges/419](https://dreamhack.io/wargame/challenges/419)
 
 # 문제 설명
 Exercise: CouchDB에서 실습하는 문제입니다.
@@ -76,4 +77,6 @@ if 구문에서 `result.upw`와 `req.body.upw`를 비교하는데 `_all_docs`로
 <label class="label">upw</label>
 <input class="input" type="password" placeholder="upw" name="upw">
 ```
-curl이나 burp suite를 이용해서도 가능하지만 그냥 브라우저의 개발자 도구에서 위의 부분(비밀번호 입력 칸)을 지워주고 id에 `_all_docs`를 넘겨주면 바로 플래그가 얻어진다.
+curl이나 burp suite를 이용해서도 가능하지만 그냥 브라우저의 개발자 도구에서 위의 부분(비밀번호 입력 칸)을 지워주고 id에 `_all_docs`를 넘겨주면 바로 플래그가 얻어진다.<br />
+
+지워주지 않고 넘겨주면 `req.body.upw`의 값이 `""`이 돼버린다. `undefined`가 아니라 아무것도 담겨있지 않은 문자열 데이터가 넘어가는 셈이다.
