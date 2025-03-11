@@ -1,6 +1,6 @@
 ---
 title: "드림핵 lv.1 - Apache htaccess"
-date: 2025-03-10 00:00:00 +0800
+date: 2025-03-11 00:00:00 +0800
 categories: [Wargame, Dreamhack]
 tags: [cyber security, writeup, dreamhack, web hacking, file upload, apache, htaccess] 
 description: 드림핵 Apache htaccess 웹해킹 워게임 풀이
