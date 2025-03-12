@@ -19,8 +19,7 @@ title: 견문발전소 # the main title
 tagline: Archive # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
+  사이버 보안을 위주로 공부하는 기록용 개인 블로그입니다.
 future: true
 
 # Fill in the protocol & hostname for your site.
