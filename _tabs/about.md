@@ -21,11 +21,17 @@ order: 4
 **GitHub:** [https://github.com/HoonSooni](https://github.com/HoonSooni)<br />
 **X(twitter):** [https://x.com/hooonie30](https://x.com/hooonie30)
 
-# 취미
-스피드 큐빙(333), 카드 기술, 독서, 단어 암기
-
 # 목표
 * CVE 등록
 * 버그 바운티 승인
 * 각종 CTF 대회 입상
 * webhacking.kr 모든 문제 풀이
+
+# IT 외로 이루고 싶은 것
+성경 *꾸준히* 정독
+역사 *꾸준히* 공부
+수학/물리/화학 *꾸준히* 공부
+언어(한국어/영어/일본어/한자) *꾸준히* 공부
+
+# 취미
+스피드 큐빙(333), 카드 기술, 독서, 단어 암기
