@@ -1,5 +1,5 @@
 ---
-title: "드림핵 lv.1 - XSS Filtering Bypass Advanced"
+title: "드림핵 lv.3 - XSS Filtering Bypass Advanced"
 date: 2025-03-14 00:10:00 +0800
 categories: [Wargame, Dreamhack]
 tags: [cyber security, writeup, dreamhack, web hacking, xss] 
