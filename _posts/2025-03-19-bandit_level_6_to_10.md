@@ -14,6 +14,7 @@ The password for the next level is stored **somewhere on the server** and has al
 - owned by user bandit7
 - owned by group bandit6
 - 33 bytes in size
+
 ### 문제 풀이
 비밀번호 파일은 서버 어딘가에 있다고 한다. <br />
 홈 디렉토리에서 `ls`를 시도해보니 역시 아무것도 나오지 않는다.<br />
