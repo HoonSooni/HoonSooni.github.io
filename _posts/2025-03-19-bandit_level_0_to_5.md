@@ -6,7 +6,7 @@ tags: [cyber security, writeup, overthewire, bandit, linux]
 description: OverTheWire Bandit 레벨 0에서 5까지 문제 풀이
 ---
 
-# 문제 풀이
+# 문제 리스트
 ## Level 0
 [https://overthewire.org/wargames/bandit/bandit0.html](https://overthewire.org/wargames/bandit/bandit0.html)
 ### 문제 설명
