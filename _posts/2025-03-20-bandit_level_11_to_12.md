@@ -8,6 +8,7 @@ description: OverTheWire Bandit 레벨 11에서 12까지 문제 풀이
 
 # 문제 리스트
 ## Level 11 -> 12
+[https://overthewire.org/wargames/bandit/bandit12.html](https://overthewire.org/wargames/bandit/bandit12.html)
 ### 문제 설명
 The password for the next level is stored in the file **data.txt**, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
 ### 문제 풀이
@@ -34,6 +35,7 @@ The password is REDACTED
 ```
 이런식으로 `tr` 명령어를 이용해서 n ~ z까지의 문자를 a ~ m으로, a ~ m까지의 문자를 n ~ z로 역치환을 할 수 있다. 대문자의 경우에도 같은 방식으로 처리하면 된다.
 ## Level 12 -> 13
+[https://overthewire.org/wargames/bandit/bandit13.html](https://overthewire.org/wargames/bandit/bandit13.html)
 ### 문제 설명
 The password for the next level is stored in the file **data.txt**, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work. Use mkdir with a hard to guess directory name. Or better, use the command “mktemp -d”. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 ### 문제 풀이
