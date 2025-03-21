@@ -1,5 +1,5 @@
 ---
-title: "드림핵 lv.3 - CSP Bypass Bypass"
+title: "드림핵 lv.3 - CSP Bypass Advanced"
 date: 2025-03-21 00:10:00 +0800
 categories: [Wargame, Dreamhack]
 tags: [cyber security, writeup, dreamhack, web hacking, csp] 
