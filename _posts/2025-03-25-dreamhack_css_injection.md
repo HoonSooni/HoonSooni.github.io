@@ -310,7 +310,7 @@ Mypage 페이지로 이동하면 내 유저 아이디와 유저 이름 그리고
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>
     <span class="n">app</span><span class="p">.</span><span class="nf">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="sh">"</span><span class="s">0.0.0.0</span><span class="sh">"</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8000</span><span class="p">)</span>
 </pre>
-</details></br>
+</details>
 
 > 코드가 너무 길어서 `<details>` 태그로 넣었지만 code formatter이 작동을 안하네요. 참고 부탁드립니다.
 {: .prompt-warning}
