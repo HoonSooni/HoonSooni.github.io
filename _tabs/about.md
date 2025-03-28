@@ -7,7 +7,7 @@ order: 4
 > 아래의 글은 **2025년 3월**을 기준으로 작성된 내용입니다. 현재와는 조금 다른 정보가 있을 지도 모르니 유의해주세요.
 
 # 프로필
-**닉네임:** 훈승이<br />
+**닉네임:** 훈승 <br />
 **거주지:** 서울시, 대한민국<br />
 **교육:** George Brown College, Computer Programming and Analysis (캐나다 토론토)<br />
 
