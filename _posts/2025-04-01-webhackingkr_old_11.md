@@ -2,7 +2,7 @@
 title: "webhacking.kr old 11 문제 풀이"
 date: 2025-04-01 00:00:00 +0800
 categories: [Wargame, Webhacking.kr]
-tags: [cyber security, writeup, webhackingkr, web hacking, php, ] 
+tags: [cyber security, writeup, webhackingkr, web hacking, php] 
 description: webhacking.kr old 11 문제 풀이
 ---
 
