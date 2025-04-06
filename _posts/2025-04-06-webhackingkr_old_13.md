@@ -29,6 +29,7 @@ description: webhacking.kr old 13 문제 풀이
 - union
 - limit
 - ascii
+
 ## 최종 풀이
 ### 취약점
 해당 문제의 취약점 카테고리는 당연하게도 Blind SQL Injection이다.<br />
