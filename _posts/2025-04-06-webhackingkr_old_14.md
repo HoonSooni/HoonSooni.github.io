@@ -6,7 +6,6 @@ tags: [cyber security, writeup, webhackingkr, web hacking]
 description: webhacking.kr old 14 문제 풀이
 ---
 
-
 [https://webhacking.kr/challenge/js-1/](https://webhacking.kr/challenge/js-1/)
 # 문제 풀이
 웹사이트에 접속하면 인풋 박스가 하나 있고 submit 버튼만 있다.<br />
