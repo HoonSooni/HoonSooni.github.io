@@ -1,6 +1,6 @@
 ---
 title: "webhacking.kr old 18 문제 풀이"
-date: 2025-04-07 00:9:20 +0800
+date: 2025-04-07 00:09:20 +0800
 categories: [Wargame, Webhacking.kr]
 tags: [cyber security, writeup, webhackingkr, web hacking, sql injection] 
 description: webhacking.kr old 18 문제 풀이
