@@ -8,21 +8,6 @@ description: webhacking.kr old 22 문제 풀이
 
 [https://webhacking.kr/challenge/bonus-2/index.php](https://webhacking.kr/challenge/bonus-2/index.php)
 # 문제 풀이
-1. guest guest 입력 시 로그인 성공 후 password hash 값 출력
-2. md5 인코딩으로 추정됨
-	- 확인해보니 "password" + apple 인코딩 값
-3. pw에는 인젝션 불가능, id에 가능
-4.  `guest' and pw='guest' -- ` 입력 시에 로그인 실패
-5. `guest' and pw='8c3a432045300fddc9050bb678749eb9' -- `를 하면 wrong password 출력
-	- password input에 값을 넣지 않아서 그런 듯 함
-
-6. `guest' and length(pw)=32 -- `, 모든 비번은 아마 md5 32자리로 저장되는 듯 함.
-	- 그래서 해당 쿼리에 wrong password가 출력
-7. admin' and ord(substr(pw, 1, 1))<97 -- 
-8. 파이썬 자동화 코드 작성
-9. md5 값 얻어 복호화
-10. 비밀번호 알아내기
-11. 제출
 ## 분석
 웹페이지에 접속하면 username, password 값을 입력받는 인풋 박스들이 있고 제출을 의미하는 login 버튼과 회원가입을 위한 join 버튼이 있다.<br />
 
@@ -34,9 +19,10 @@ description: webhacking.kr old 22 문제 풀이
 이게 어떤 값으로 들어가는지 궁금해져서 md5 디코더 사이트를 이용해보니 복호화가 불가능하다고 한다.<br />
 그 다음으로는 [CrackStation](https://crackstation.net/)이라는 사이트를 이용하여 레인보우 테이블을 이용한 복호화를 해보니 아래의 결과가 나온다.<br />
 
-| Hash                             | Type | Result     |
-| -------------------------------- | ---- | ---------- |
-| 8c3a432045300fddc9050bb678749eb9 | md5  | guestapple |
+**Hash:** 8c3a432045300fddc9050bb678749eb9<br />
+**Type:** md5<br />
+**Result:** guestapple<br />
+
 역시 예상대로 md5 형식이 맞았고 내가 설정한 비밀번호 외로 뒤에 "apple"이라는 문자열이 붙어있는 것이 확인된다.<br />
 ### 서버 작동 예상
 지금까지 얻은 정보들로 보았을 때 우리가 로그인 시 username과 password를 입력하고 제출하면 서버에서 값들을 받아오고 비밀번호에 "apple" 접미사를 붙여 md5 암호화를 한다.<br />
