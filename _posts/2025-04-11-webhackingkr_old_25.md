@@ -6,7 +6,6 @@ tags: [cyber security, writeup, webhackingkr, web hacking, php]
 description: webhacking.kr old 25 문제 풀이
 ---
 
-[http://webhacking.kr:10001/](http://webhacking.kr:10001/)
 # 문제 풀이
 ```
 total 20
