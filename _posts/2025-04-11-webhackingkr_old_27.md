@@ -52,6 +52,7 @@ description: webhacking.kr old 27 문제 풀이
 - limit
 - =
 - 0x
+
 ## 최종 풀이
 위 필터링되는 문자, 구문들을 우회하여 id가 admin인 결과를 뽑아내는 것이 우리의 목표이다.<br />
 ### 필터링 우회

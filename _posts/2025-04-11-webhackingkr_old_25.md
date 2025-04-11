@@ -30,7 +30,6 @@ drwxr-xr-x 3 root root 4096 Aug 24  2019 ..
 ### PHP Wrapper
 [PHP Wrapper 공식문서](https://www.php.net/manual/en/wrappers.php.php)를 참고하면 php:// 접두사를 이용해서 php의 다양한 I/O 스트림에 접근할 수 있다고 한다.<br />
 
-![filter wrapper](https://1drv.ms/i/c/5cb37aa515b56a00/IQQoMDyHhXqGRJYL3_ji7G3CAR4F6y8fTKhQs--aJGgskC0?width=660)
 그 중에서도 특히 filter 부분을 자세히 보면 특정 스트림(여기에선 파일)을 필터에 통과시켜 읽어낼 수 있는 방법이 있다고 한다.<br />
 
 즉, `php://filter/read={filter}/resource={filename}` 형식으로 특정 php 파일의 내용을 가져오는 것이 가능하다는 의미이다.<br />
