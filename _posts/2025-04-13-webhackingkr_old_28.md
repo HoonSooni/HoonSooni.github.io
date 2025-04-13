@@ -6,7 +6,6 @@ tags: [cyber security, writeup, webhackingkr, web hacking, file upload]
 description: webhacking.kr old 28 문제 풀이
 ---
 
-[http://webhacking.kr:10002/](http://webhacking.kr:10002/)
 # 문제 풀이
 1. 웹쉘 업로드 시도
 	 - 꺽쇠가 오픈 꺽쇠가 필터링돼어 작동하지 않음
