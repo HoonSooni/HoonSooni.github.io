@@ -24,3 +24,4 @@ package-lock.json
 
 # Misc
 dreamhack_writeup
+.DS_Store
